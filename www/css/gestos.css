@@ -2,14 +2,14 @@ body{
     background-color: lightgrey;
  }
  body.claro{
-    background-color: aliceblue;
+    background-color: green;
  }
  body.obscuro{
-    background-color: cadetblue;
+    background-color: darkblue;
  }
  
  button{
-    background-color: greenyellow;
+    background-color: darkgoldenrod;
     width: 100%;
     padding: 30px;
     font-size: 1em;

@@ -2,23 +2,27 @@ body{
     background-color: lightgrey;
  }
  body.claro{
-    background-color: aliceblue;
+    background-color: aquamarine;
  }
  body.obscuro{
-    background-color: cadetblue;
+    background-color: darkcyan;
  }
+
  
  button{
-    background-color: greenyellow;
-    width: 100%;
+    background-color: darkslategrey;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
     padding: 30px;
     font-size: 1em;
     margin-top: 10px;
  }
  
  div{
-    background-color: greenyellow;
-    width: 100%;
+    background-color:  darkslategrey;
+    width: 80%;
+    margin-left: 10%;
     height: 40vh;
     margin-top: 10px;
    
@@ -58,26 +62,51 @@ body{
     0%, 100%{
         background-color: greenyellow;
     }
+    10%{
+      background-color: white;
+    
+    }
+   20%{
+      background-color: grey;
+   }
+   30%
+   {
+      background-color: lightseagreen;
+   }
+   40%{
+      background-color: lightskyblue;
+   }
     50%{
         background-color: blue;
+    }
+    60%
+    {
+       background-color: purple;
+    }
+    70%{
+       background-color: orange;
+    }
+    80%
+    {
+       background-color: green;
     }
  }
  
  @-webkit-keyframes pulsacion{
     0%, 100%{
-        background-color: greenyellow;
+        background-color: darkslategrey;
     }
     50%{
-        background-color: rgb(238, 250, 221);
+        background-color: rgb(238, 250, 40);
     }
  }
  
  @-webkit-keyframes presion{
     0%, 100%{
-        background-color: greenyellow;
+        background-color: darkslategrey;
     }
     50%{
-        background-color:  rgb(42, 63, 11);
+        background-color:  rgb(42, 63, 200);
     }
  }
  

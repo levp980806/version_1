@@ -15,7 +15,7 @@ var app = {
  
         btnClaro.addEventListener('click',this.ponloClaro, false);
         btnObscuro.addEventListener('click',this.ponloBobscuro, false);
-       
+    
     },
  
     iniciaHammer: function() {
@@ -27,7 +27,7 @@ var app = {
  
         zona.addEventListener('webkitAnimationEnd',function(e){
             zona.className = '';
-        })
+        });
  
         hammertime.on('tap', function(ev){
             document.querySelector('#info').innerHTML = ev.type+'!';
